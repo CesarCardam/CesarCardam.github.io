@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+  <!-- Compiled and minified JavaScript -->
+  <link rel="stylesheet" href="External/mdl/material.min.css">
+  <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+  <text class="toolti" id="toolti">Tooltip</text>
+  <div id="chart" class="graph" width="100%" height="800px"><svg width="70%" height="600px"></svg>
+    <div width="30%">
+      <div><!-- Simple Textfield -->
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" id="sample1">
+          <label class="mdl-textfield__label" for="sample1">Palabra o frase</label>
+        </div>
+      </form>
+      </div>
+      <div><!-- Numeric Textfield -->
+      <form action="#">
+        <div class="mdl-textfield mdl-js-textfield">
+          <input class="mdl-textfield__input" type="text" pattern="-?[0-9]*(\.[0-9]+)?" id="sample2">
+          <label class="mdl-textfield__label" for="sample2">Ngramas (igual o mayor a 2)</label>
+          <span class="mdl-textfield__error">Input is not a number!</span>
+        </div>
+      </form></div>
+      <div><button id="b_reload" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Crear grafo</button></div>
+    </div>
+  </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+<script src="External/D3/d3.v4.min.js"></script>
+<script src="External/mdl/material.min.js"></script>
+<script src="Javascript/main.js"> </script>

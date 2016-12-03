@@ -1,0 +1,52 @@
+.links line {
+  stroke: #999;
+  stroke-opacity: 0.6;
+}
+
+.nodes circle {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+
+.toolti{
+  background-color: #F66013;
+  color: white;
+  padding: 2px;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+  position: absolute;
+  visibility: hidden;
+  left: 0;
+  top: 0;
+}
+
+.graph{
+  width: 100%;
+}
+
+.overColor{
+  background-color: rgba(33, 150, 243, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.overPink{
+  background-color: rgba(233, 30, 99, 0.7);
+}
+
+.overPurple{
+  background-color: rgba(156, 39, 176, 0.7);
+}
+
+.overRed{
+  background-color: rgba(244, 67, 54, 0.7);
+}
+
+.titleParallax{
+  height: 100px;
+}
