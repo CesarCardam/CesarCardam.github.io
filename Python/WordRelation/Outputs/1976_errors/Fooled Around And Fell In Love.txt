@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Fooled-Around-And-Fell-In-Love-lyrics-Elvin-Bishop.html

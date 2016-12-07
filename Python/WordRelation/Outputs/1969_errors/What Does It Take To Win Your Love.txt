@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/What-Does-It-Take-To-Win-Your-Love-lyrics-Jr-Walker.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/What-Does-It-Take-To-Win-Your-Love-lyrics-Jr-Walker.html

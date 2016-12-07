@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Stereo-Hearts-lyrics-Gym-Class-Heroes-featuring-Adam-Levine.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Stereo-Hearts-lyrics-Gym-Class-Heroes-featuring-Adam-Levine.html

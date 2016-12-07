@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/The-Wonder-Of-You-Mama-Liked-The-Roses-lyrics-Elvis-Presley.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/The-Wonder-Of-You-Mama-Liked-The-Roses-lyrics-Elvis-Presley.html

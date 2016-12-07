@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Stop-In-The-Name-Of-Love-lyrics-Supremes.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Stop-In-The-Name-Of-Love-lyrics-Supremes.html

@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Until-You-Come-Back-To-Me-Thats-What-Im-Gonna-Do-lyrics-Aretha-Franklin.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Until-You-Come-Back-To-Me-Thats-What-Im-Gonna-Do-lyrics-Aretha-Franklin.html

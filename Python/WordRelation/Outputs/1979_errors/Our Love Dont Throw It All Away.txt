@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Our-Love-Dont-Throw-It-All-Away-lyrics-Andy-Gibb.html

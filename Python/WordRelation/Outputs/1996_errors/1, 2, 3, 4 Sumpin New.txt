@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/1,-2,-3,-4-Sumpin-New-lyrics-Coolio.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/1,-2,-3,-4-Sumpin-New-lyrics-Coolio.html

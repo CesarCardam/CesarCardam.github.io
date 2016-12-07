@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Love-You-Like-a-Love-Song-lyrics-Selena-Gomez.html

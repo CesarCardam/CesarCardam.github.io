@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/You-Cant-Turn-Me-Off-In-The-Middle-Of-Turning-Me-On-lyrics-High-Inergy.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/You-Cant-Turn-Me-Off-In-The-Middle-Of-Turning-Me-On-lyrics-High-Inergy.html

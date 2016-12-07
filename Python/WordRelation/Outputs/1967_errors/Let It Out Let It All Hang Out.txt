@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Let-It-Out-Let-It-All-Hang-Out-lyrics-Hombres.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Let-It-Out-Let-It-All-Hang-Out-lyrics-Hombres.html

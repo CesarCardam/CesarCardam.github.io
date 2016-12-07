@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Dont-Say-You-Dont-Rememeer-lyrics-Beverly-Bremers.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Dont-Say-You-Dont-Rememeer-lyrics-Beverly-Bremers.html

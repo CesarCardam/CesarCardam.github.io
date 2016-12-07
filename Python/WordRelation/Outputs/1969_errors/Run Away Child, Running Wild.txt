@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Run-Away-Child,-Running-Wild-lyrics-Temptations.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Run-Away-Child,-Running-Wild-lyrics-Temptations.html

@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/She-Aint-Worth-It-lyrics-Glenn-Medeiros.html

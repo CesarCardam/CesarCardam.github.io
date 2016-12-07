@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Neither-One-Of-Us-Wants-To-Be-The-First-To-Say-Goodbye-lyrics-Gladys-Knight.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Neither-One-Of-Us-Wants-To-Be-The-First-To-Say-Goodbye-lyrics-Gladys-Knight.html

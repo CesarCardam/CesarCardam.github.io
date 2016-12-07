@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/634-5789-lyrics-Wilson-Pickett.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/634-5789-lyrics-Wilson-Pickett.html

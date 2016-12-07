@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Image-Of-A-Girl-lyrics-Safaris.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Image-Of-A-Girl-lyrics-Safaris.html

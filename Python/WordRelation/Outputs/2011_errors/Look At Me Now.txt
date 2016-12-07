@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Look-At-Me-Now-lyrics-Chris-Brown-featuring-Lil-Wayne.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Look-At-Me-Now-lyrics-Chris-Brown-featuring-Lil-Wayne.html

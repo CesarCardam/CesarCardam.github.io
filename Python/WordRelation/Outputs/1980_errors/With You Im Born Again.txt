@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/With-You-Im-Born-Again-lyrics-Billy-Preston.html

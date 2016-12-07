@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Loves-Been-A-Little-Bit-Hard-On-Me-lyrics-Juice-Newton.html

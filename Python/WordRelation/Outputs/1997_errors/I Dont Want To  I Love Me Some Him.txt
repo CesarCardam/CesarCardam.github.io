@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/I-Dont-Want-To-I-Love-Me-Some-Him-lyrics-Toni-Braxton.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/I-Dont-Want-To-I-Love-Me-Some-Him-lyrics-Toni-Braxton.html

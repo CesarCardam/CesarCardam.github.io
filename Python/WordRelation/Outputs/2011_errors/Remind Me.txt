@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Remind-Me-lyrics-Brad-Paisley-Duet-With-Carrie-Underwood.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Remind-Me-lyrics-Brad-Paisley-Duet-With-Carrie-Underwood.html

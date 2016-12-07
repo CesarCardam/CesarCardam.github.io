@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Ill-Be-There-For-You-Youre-All-I-Need-To-Get-By-lyrics-Method-Man-Mary-J-Blige.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Ill-Be-There-For-You-Youre-All-I-Need-To-Get-By-lyrics-Method-Man-Mary-J-Blige.html

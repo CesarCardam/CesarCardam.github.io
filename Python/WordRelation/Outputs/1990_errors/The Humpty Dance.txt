@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/The-Humpty-Dance-lyrics-Digital-Underground.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/The-Humpty-Dance-lyrics-Digital-Underground.html

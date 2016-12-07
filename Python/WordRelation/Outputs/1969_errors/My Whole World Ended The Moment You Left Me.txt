@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/My-Whole-World-Ended-The-Moment-You-Left-Me-lyrics-David-Ruffin.html

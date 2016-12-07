@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/If-You-Let-Me-Make-Love-To-You-Then-Why-Cant-I-Touch-You-lyrics-Ronnie-Dyson.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/If-You-Let-Me-Make-Love-To-You-Then-Why-Cant-I-Touch-You-lyrics-Ronnie-Dyson.html

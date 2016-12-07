@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/The-Way-I-Feel-About-You-lyrics-Karyn-White.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/The-Way-I-Feel-About-You-lyrics-Karyn-White.html

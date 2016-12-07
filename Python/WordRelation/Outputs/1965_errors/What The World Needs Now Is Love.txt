@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/What-The-World-Needs-Now-Is-Love-lyrics-Jackie-DeShannon.html

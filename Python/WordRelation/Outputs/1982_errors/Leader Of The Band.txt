@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Leader-Of-The-Band-lyrics-Dan-Fogelberg.html

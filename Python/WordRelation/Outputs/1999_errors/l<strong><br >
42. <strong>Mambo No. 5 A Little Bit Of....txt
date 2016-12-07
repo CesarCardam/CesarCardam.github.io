@@ -1,0 +1,4 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/l<strong><br->
+42-<strong>Mambo-No-5-A-Little-Bit-Of-lyrics-Lou-Bega.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/l<strong><br->
+42-<strong>Mambo-No-5-A-Little-Bit-Of-lyrics-Lou-Bega.html

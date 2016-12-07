@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Bad-To-Me-lyrics-Billy-J-Kramer.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Bad-To-Me-lyrics-Billy-J-Kramer.html

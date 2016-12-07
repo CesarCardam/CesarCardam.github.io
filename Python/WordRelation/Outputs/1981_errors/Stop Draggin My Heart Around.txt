@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Stop-Draggin-My-Heart-Around-lyrics-Stevie-Nicks-With-Tom-Petty.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Stop-Draggin-My-Heart-Around-lyrics-Stevie-Nicks-With-Tom-Petty.html

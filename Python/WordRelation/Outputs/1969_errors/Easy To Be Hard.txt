@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Easy-To-Be-Hard-lyrics-Three-Dog-Night.html

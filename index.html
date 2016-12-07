@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="CSS/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="CSS/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="External/noUiSlider/nouislider.css">
   <link rel="stylesheet" href="CSS/main.css">
 </head>
 <body>
@@ -121,6 +122,41 @@
     </div>
     <div class="parallax"><img src="Images/background2.jpg" alt="Unsplashed background img 2"><div class="overColor overPurple"></div></img></div>
   </div>
+
+  <div class="row">
+      <form id="linkerForm" class="col s12">
+        <div class="row">
+          <div class="input-field col m6 s12">
+            <input id="frase" type="text" class="validate">
+            <label for="frase">Palabra o frase</label>
+          </div>
+          <div class="input-field col m6 s12">
+            <input id="ngramas" type="number" class="validate">
+            <label for="ngramas">Tamaño de NGramas (igual o mayor a 2)</label>
+          </div>
+        </div>
+        <div class="row">
+            <div class="switch col m6 s12">
+              <div class="row">
+              <label>
+                Corpus web
+                <input id="checkCorpus" type="checkbox">
+                <span class="lever"></span>
+                Corpus musical
+              </label>
+            </div>
+              <div class="row">
+              <div id="doubleSlider">
+              </div>
+            </div>
+            </div>
+          <div class="switch col m6 s12 center-align">
+            <a id="linker-button" class="btn waves-effect waves-light purple lighten-1">Crear grafo</a>
+          </div>
+        </div>
+      </form>
+    </div>
+
 <div id="chart" class="graph" width="100%" height="800px"><svg width="100%" height="500px"></svg>
   <div class="container">
     <div class="section">
@@ -205,8 +241,10 @@
   <script src="Javascript/materialize.js"></script>
   <script src="Javascript/init.js"></script>
   <script src="External/D3/d3.v4.min.js"></script>
+  <script src="External/noUiSlider/nouislider.js"></script>
+  <script src="External/wnumb/wNumb.js"></script>
   <!--<script src="External/mdl/material.min.js"></script>-->
   <script src="Javascript/menu.js"> </script>
-  <script src="Javascript/main.js"> </script>
+  <script src="Javascript/linker.js"> </script>
   </body>
 </html>

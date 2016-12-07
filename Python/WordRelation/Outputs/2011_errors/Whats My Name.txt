@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Whats-My-Name-lyrics-Rihanna-featuring-Drake.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Whats-My-Name-lyrics-Rihanna-featuring-Drake.html

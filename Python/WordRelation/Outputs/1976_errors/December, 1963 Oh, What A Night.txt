@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/December,-1963-Oh,-What-A-Night-lyrics-Four-Seasons.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/December,-1963-Oh,-What-A-Night-lyrics-Four-Seasons.html

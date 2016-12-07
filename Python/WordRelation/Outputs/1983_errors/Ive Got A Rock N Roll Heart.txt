@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Ive-Got-A-Rock-N-Roll-Heart-lyrics-Eric-Clapton.html

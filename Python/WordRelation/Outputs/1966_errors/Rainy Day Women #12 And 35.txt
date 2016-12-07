@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Rainy-Day-Women-#12-And-35-lyrics-Bob-Dylan.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Rainy-Day-Women-#12-And-35-lyrics-Bob-Dylan.html

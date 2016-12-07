@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/6-Foot-7-Foot-lyrics-Lil-Wayne-featuring-Cory-Gunz.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/6-Foot-7-Foot-lyrics-Lil-Wayne-featuring-Cory-Gunz.html

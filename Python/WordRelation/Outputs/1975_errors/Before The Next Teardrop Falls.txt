@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Before-The-Next-Teardrop-Falls-lyrics-Freddy-Fender.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Before-The-Next-Teardrop-Falls-lyrics-Freddy-Fender.html

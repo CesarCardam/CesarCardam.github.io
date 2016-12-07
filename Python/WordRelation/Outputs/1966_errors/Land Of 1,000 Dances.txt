@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Land-Of-1,000-Dances-lyrics-Wilson-Pickett.html

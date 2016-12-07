@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Thrift-Shop-lyrics-Macklemore-and-Ryan-Lewis-featuring-Wanz.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Thrift-Shop-lyrics-Macklemore-and-Ryan-Lewis-featuring-Wanz.html

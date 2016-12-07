@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/I-Belong-To-You-Every-Time-I-See-Your-Face-lyrics-Rome.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/I-Belong-To-You-Every-Time-I-See-Your-Face-lyrics-Rome.html

@@ -11,6 +11,48 @@ import freqcounter
 import sorter
 import writer
 
+def linker(s,n):
+    n=int(n)
+    numResults=50
+    #Busca en bing
+    descriptionsList=websearcher.getResultsDescriptionList(s,numResults)
+    #Limpia la lista de signos de puntuación y palabras de baja información
+    cleanList=cleaner.removeMarksAndLowInfoWordsFromList(descriptionsList,"../Resources/low_info_words.txt")
+    #Genera los 3gramas en una lista de listas
+    nGramsList=ngramer.makeNGramListFromTextList(cleanList,n)
+    #Obtiene la probabilidad condicional de la palabra dada con cada palabra del texto en una lista de tuplas
+    #Se pasa el valor de lambda de 1 para el smoothing de Laplace, también se pasa el número de resultados
+    #para calcular el número de N-1 gramas
+    wordsRelation=freqcounter.getWordsListWithRelation(s,nGramsList,1,numResults)
+    #Ordena de mayor a menor las relaciones
+    wordsRelationOrdered=sorter.sortListOfTuples(wordsRelation)
+    #Guarda en un archivo de texto las listas de tuplas
+    #writer.writeListOfTuples("../Outputs/"+s+str(n)+"gramas.txt",wordsRelationOrdered)
+    response = writer.writeDataForD3("../../../Resources/data.json",s,wordsRelationOrdered,100,10)
+
+    return response
+
+def linkerC(s,n,yearInit,yearEnd):
+    n=int(n)
+    numResults=50
+    #Busca en bing
+    descriptionsList=websearcher.getResultsDescriptionListCorpus("../Outputs",s,yearInit,yearEnd)
+    #Limpia la lista de signos de puntuación y palabras de baja información
+    cleanList=cleaner.removeMarksAndLowInfoWordsFromList(descriptionsList,"../Resources/low_info_words.txt")
+    #Genera los 3gramas en una lista de listas
+    nGramsList=ngramer.makeNGramListFromTextList(cleanList,n)
+    #Obtiene la probabilidad condicional de la palabra dada con cada palabra del texto en una lista de tuplas
+    #Se pasa el valor de lambda de 1 para el smoothing de Laplace, también se pasa el número de resultados
+    #para calcular el número de N-1 gramas
+    wordsRelation=freqcounter.getWordsListWithRelation(s,nGramsList,1,numResults)
+    #Ordena de mayor a menor las relaciones
+    wordsRelationOrdered=sorter.sortListOfTuples(wordsRelation)
+    #Guarda en un archivo de texto las listas de tuplas
+    #writer.writeListOfTuples("../Outputs/"+s+str(n)+"gramas.txt",wordsRelationOrdered)
+    response = writer.writeDataForD3("../../../Resources/data.json",s,wordsRelationOrdered,100,10)
+
+    return response
+
 def runmain():
     print("Ingresa una palabra:\n")
     s = raw_input('--> ')

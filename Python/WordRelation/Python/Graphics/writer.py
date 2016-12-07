@@ -25,6 +25,7 @@ def writeDataForD3(path,mainWord,listOfTuples, maxNodes, numGroups): #TODO: add 
     node["id"]=mainWord
     node["group"]=100
     nodes.append(node)
+    print(listOfTuples)
     #max nodes to appear
     num=maxNodes
     if len(listOfTuples)<num:
@@ -58,3 +59,4 @@ def writeDataForD3(path,mainWord,listOfTuples, maxNodes, numGroups): #TODO: add 
     target.write(cadena)
 
     target.close()
+    return cadena;

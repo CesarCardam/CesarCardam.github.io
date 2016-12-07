@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Beer-for-my-Horses-lyrics-Toby-Keith-Duet-With-Willie-Nelson.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Beer-for-my-Horses-lyrics-Toby-Keith-Duet-With-Willie-Nelson.html

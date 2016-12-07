@@ -1,0 +1,12 @@
+25. Juice Newtonalbum
+There'll be no strings to bind your hands
+Not if my love can't bind your heart
+And there's no need to take a stand
+For it was I who chose to start
+I see no need to take me home
+I'm old enough to face the dawn
+<div id="mid-song-discussion" class="js-sd-middle-disc">
+<div class="author">
+<div class="avatar ">
+<img pagespeed_lazy_src="http://netstorage.metrolyrics.com/users/ml-avatar.png" alt="AmandaH" src="/img/1.gif" onload="pagespeed.lazyLoadImages.loadIfVisible(this);"/>
+&nbsp;by</span>AmandaH	&nbsp;Editor

@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Just-Once-In-My-Life-lyrics-Righteous-Brothers.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Just-Once-In-My-Life-lyrics-Righteous-Brothers.html

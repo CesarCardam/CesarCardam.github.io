@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Whispering-Cherchez-La-Femme-Cest-Si-Bon-lyrics-Dr-Buzzard's-Original-Savannah-Band.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Whispering-Cherchez-La-Femme-Cest-Si-Bon-lyrics-Dr-Buzzard's-Original-Savannah-Band.html

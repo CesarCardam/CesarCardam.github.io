@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Give-Me-Just-A-Little-More-Time-lyrics-Chairmen-Of-The-Board.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Give-Me-Just-A-Little-More-Time-lyrics-Chairmen-Of-The-Board.html

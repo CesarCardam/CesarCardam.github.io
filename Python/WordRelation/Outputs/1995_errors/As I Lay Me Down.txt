@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/As-I-Lay-Me-Down-lyrics-Sophie-B-Hawkins.html

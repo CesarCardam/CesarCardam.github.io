@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/If-Loving-You-Is-Wrong-I-Dont-Want-To-Be-Right-lyrics-Luther-Ingram.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/If-Loving-You-Is-Wrong-I-Dont-Want-To-Be-Right-lyrics-Luther-Ingram.html

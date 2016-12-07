@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Let-Her-In-lyrics-John-Travolta.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Let-Her-In-lyrics-John-Travolta.html

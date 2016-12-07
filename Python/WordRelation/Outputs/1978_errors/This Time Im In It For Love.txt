@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/This-Time-Im-In-It-For-Love-lyrics-Player.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/This-Time-Im-In-It-For-Love-lyrics-Player.html

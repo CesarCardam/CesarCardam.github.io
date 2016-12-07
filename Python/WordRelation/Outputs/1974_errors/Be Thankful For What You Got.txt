@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Be-Thankful-For-What-You-Got-lyrics-William-Devaughn.html

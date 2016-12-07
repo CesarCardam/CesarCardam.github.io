@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Dont-Leave-Me-This-Way-lyrics-Thelma-Houston.html

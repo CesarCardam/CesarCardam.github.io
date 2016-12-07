@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Ive-Never-Been-To-Me-lyrics-Charlene.html

@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/As-Long-as-You-Love-Me-lyrics-Justin-Bieber-featuring-Big-Sean.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/As-Long-as-You-Love-Me-lyrics-Justin-Bieber-featuring-Big-Sean.html

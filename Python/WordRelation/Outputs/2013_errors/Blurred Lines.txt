@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Blurred-Lines-lyrics-Robin-Thicke-featuring-TI-and-Pharrell-Williams.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Blurred-Lines-lyrics-Robin-Thicke-featuring-TI-and-Pharrell-Williams.html

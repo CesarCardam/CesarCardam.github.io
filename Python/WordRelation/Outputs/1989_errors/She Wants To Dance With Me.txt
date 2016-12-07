@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/She-Wants-To-Dance-With-Me-lyrics-Rick-Astley.html

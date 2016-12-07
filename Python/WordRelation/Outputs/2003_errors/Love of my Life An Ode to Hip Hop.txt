@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Love-of-my-Life-An-Ode-to-Hip-Hop-lyrics-Erykah-Badu.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Love-of-my-Life-An-Ode-to-Hip-Hop-lyrics-Erykah-Badu.html

@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Gonna-Make-You-Sweat-lyrics-C+C-Music-Factory.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Gonna-Make-You-Sweat-lyrics-C+C-Music-Factory.html

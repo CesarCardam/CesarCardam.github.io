@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/You-Dont-Have-To-Be-A-Star-lyrics-Marilyn-McCoo.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/You-Dont-Have-To-Be-A-Star-lyrics-Marilyn-McCoo.html

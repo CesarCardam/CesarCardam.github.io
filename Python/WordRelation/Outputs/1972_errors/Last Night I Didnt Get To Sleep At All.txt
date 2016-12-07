@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Last-Night-I-Didnt-Get-To-Sleep-At-All-lyrics-5th-Dimension.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Last-Night-I-Didnt-Get-To-Sleep-At-All-lyrics-5th-Dimension.html

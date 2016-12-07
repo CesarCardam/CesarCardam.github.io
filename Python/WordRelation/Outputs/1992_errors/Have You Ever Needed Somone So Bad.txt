@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Have-You-Ever-Needed-Somone-So-Bad-lyrics-Def-Leppard.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Have-You-Ever-Needed-Somone-So-Bad-lyrics-Def-Leppard.html

@@ -16,8 +16,15 @@ def cleanLowInfoWords(text,lowInfoWordsPath):
     cleanTex=""+text
     with open(lowInfoWordsPath) as f:
         for line in f:
-            word=line[:-1].decode('utf8')
-            cleanTex=cleanTex.replace(" "+word+" "," ")
+            try:
+                word=line[:-1].decode('utf8')
+                #print(word)
+                cleanTex=cleanTex.replace(" "+word+" "," ")
+                print(word)
+            except Exception as e:
+                print(word)
+    cleanTex=re.sub(u"[()!¡¿?,.;:\|\'\`\"\—\-\[\]]|( [a-z] )|( [0-9] )",reSubFunction,text)
+    print "clean: "+cleanTex
     return cleanTex
 
 def removeMarksFromList(textList):
@@ -34,10 +41,4 @@ def removeMarksAndLowInfoWordsFromList(textList,lowInfoWordsPath):
     for text in textList:
         #blank space at beginning of text to correctly remove low info words
         cleanList.append(cleanLowInfoWords(cleanMarks(" "+text.lower()),lowInfoWordsPath))
-    for text in cleanList:
-        #blank space at beginning of text to correctly remove low info words
-        cleanList2.append(cleanLowInfoWords(cleanMarks(" "+text.lower()),lowInfoWordsPath))
-    for text in cleanList2:
-        #blank space at beginning of text to correctly remove low info words
-        cleanList3.append(cleanLowInfoWords(cleanMarks(" "+text.lower()),lowInfoWordsPath))
-    return cleanList3
+    return cleanList

@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Up-Around-The-Bend-Run-Through-The-Jungle-lyrics-Creedence-Clearwater-Revival.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Up-Around-The-Bend-Run-Through-The-Jungle-lyrics-Creedence-Clearwater-Revival.html

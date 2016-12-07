@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Take-On-Me-lyrics-A-Ha.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Take-On-Me-lyrics-A-Ha.html

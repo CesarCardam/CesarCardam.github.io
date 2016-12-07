@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Kiss-Me-Thru-the-Phone-lyrics-Soulja-Boy-Tell-'em.html

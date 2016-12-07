@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Aint-No-Woman-Like-The-One-I-Got-lyrics-Four-Tops.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Aint-No-Woman-Like-The-One-I-Got-lyrics-Four-Tops.html

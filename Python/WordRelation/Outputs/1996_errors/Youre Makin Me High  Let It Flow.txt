@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Youre-Makin-Me-High-Let-It-Flow-lyrics-Toni-Braxton.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Youre-Makin-Me-High-Let-It-Flow-lyrics-Toni-Braxton.html

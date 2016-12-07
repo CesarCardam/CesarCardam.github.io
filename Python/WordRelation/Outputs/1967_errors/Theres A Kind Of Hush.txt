@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Theres-A-Kind-Of-Hush-lyrics-Herman's-Hermits.html

@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/The-Love-You-Save-I-Found-That-Girl-lyrics-Jackson-5.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/The-Love-You-Save-I-Found-That-Girl-lyrics-Jackson-5.html

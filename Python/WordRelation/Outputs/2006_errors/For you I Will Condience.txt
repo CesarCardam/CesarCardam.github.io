@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/For-you-I-Will-Condience-lyrics-Teddy-Geiger.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/For-you-I-Will-Condience-lyrics-Teddy-Geiger.html

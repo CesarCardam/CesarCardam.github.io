@@ -1,0 +1,2 @@
+
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Hot-In-The-City-lyrics-Billy-Idol.html

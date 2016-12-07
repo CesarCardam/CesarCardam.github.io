@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Fight-The-Power,-Pt-1-lyrics-Isley-Brothers.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Fight-The-Power,-Pt-1-lyrics-Isley-Brothers.html

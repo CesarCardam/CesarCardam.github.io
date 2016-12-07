@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Looking-Through-Patient-Eyes-lyrics-PM-Dawn.html

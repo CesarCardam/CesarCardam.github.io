@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/I-Love-How-You-Love-Me-lyrics-Paris-Sisters.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/I-Love-How-You-Love-Me-lyrics-Paris-Sisters.html

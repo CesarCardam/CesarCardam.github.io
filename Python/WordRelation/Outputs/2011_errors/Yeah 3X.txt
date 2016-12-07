@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Yeah-3X-lyrics-Cobra-Starship.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Yeah-3X-lyrics-Cobra-Starship.html

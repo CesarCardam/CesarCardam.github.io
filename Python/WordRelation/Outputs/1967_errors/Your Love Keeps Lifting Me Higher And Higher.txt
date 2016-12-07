@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Your-Love-Keeps-Lifting-Me-Higher-And-Higher-lyrics-Jackie-Wilson.html

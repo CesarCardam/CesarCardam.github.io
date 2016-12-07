@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Come-Get-It-lyrics-Selena-Gomez.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Come-Get-It-lyrics-Selena-Gomez.html

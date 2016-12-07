@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/You-Gotta-Fight-For-Your-Right-To-Party-lyrics-Beastie-Boys.html

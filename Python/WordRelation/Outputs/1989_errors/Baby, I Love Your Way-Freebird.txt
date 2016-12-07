@@ -1,0 +1,2 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Baby,-I-Love-Your-Way-Freebird-lyrics-Will-To-Power.html
+'NoneType' object has no attribute 'group' in SONG from URL: http://www.metrolyrics.com/Baby,-I-Love-Your-Way-Freebird-lyrics-Will-To-Power.html

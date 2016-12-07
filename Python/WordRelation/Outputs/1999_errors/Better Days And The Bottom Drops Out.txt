@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/Better-Days-And-The-Bottom-Drops-Out-lyrics-Citizen-King.html

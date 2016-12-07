@@ -1,0 +1,1 @@
+'NoneType' object has no attribute 'group' in ALBUM from URL: http://www.metrolyrics.com/You-And-Me-Against-The-World-lyrics-Helen-Reddy.html
