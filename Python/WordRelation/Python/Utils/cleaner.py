@@ -14,6 +14,7 @@ def cleanMarks(text):
 
 def cleanLowInfoWords(text,lowInfoWordsPath):
     cleanTex=""+text
+    cleanTex=re.sub(u"[()!¡¿?,.;:\|\'\`\"\—\-\[\]]|( [a-z] )|( [0-9] )",reSubFunction,text)
     with open(lowInfoWordsPath) as f:
         for line in f:
             try:
@@ -21,10 +22,9 @@ def cleanLowInfoWords(text,lowInfoWordsPath):
                 #print(word)
                 cleanTex=cleanTex.replace(" "+word+" "," ")
                 print(word)
+                print "clean: "+cleanTex
             except Exception as e:
-                print(word)
-    cleanTex=re.sub(u"[()!¡¿?,.;:\|\'\`\"\—\-\[\]]|( [a-z] )|( [0-9] )",reSubFunction,text)
-    print "clean: "+cleanTex
+                pass
     return cleanTex
 
 def removeMarksFromList(textList):
@@ -35,8 +35,6 @@ def removeMarksFromList(textList):
 
 def removeMarksAndLowInfoWordsFromList(textList,lowInfoWordsPath):
     cleanList=[]
-    cleanList2=[]
-    cleanList3=[]
     #Cleaned three times to remove Low Info Words that are together
     for text in textList:
         #blank space at beginning of text to correctly remove low info words
