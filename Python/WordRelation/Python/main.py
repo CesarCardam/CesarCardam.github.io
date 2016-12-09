@@ -60,7 +60,7 @@ def freqData():
     numResults=50
     jsonV={}
     #Busca en corpus
-    for year in range(yearInit,yearEnd)):
+    for year in range(yearInit,yearEnd):
         descriptionsList=websearcher.getResultsDescriptionListCorpus("../Outputs",s,year,year)
         #Limpia la lista de signos de puntuación
         cleanList=cleaner.removeMarksFromList(descriptionsList)
@@ -70,7 +70,7 @@ def freqData():
         #Se pasa el valor de lambda de 1 para el smoothing de Laplace, también se pasa el número de resultados
         #para calcular el número de N-1 gramas
         freqDic,words=freqcounter.getWordsFreqInNgrams(nGramsList)
-        
+
     #Guarda en un archivo de texto las listas de tuplas
     #writer.writeListOfTuples("../Outputs/"+s+str(n)+"gramas.txt",wordsRelationOrdered)
     response = writer.writeDataForD3("../../../Resources/data.tsv",s,wordsRelationOrdered,100,10)
