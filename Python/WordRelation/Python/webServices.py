@@ -9,7 +9,7 @@ urls = (
     '/api/v1/update_corpus', 'update_corpus',
     '/api/v1/update_composer', 'update_composer'
 )
-
+web.config.debug = False
 app = web.application(urls, globals())
 
 
