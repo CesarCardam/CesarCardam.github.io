@@ -15,7 +15,7 @@ def writeListOfTuples(path,listOfTuples):
     target.close()
 
 def writeDataForD3(path,mainWord,listOfTuples, maxNodes, numGroups): #TODO: add levels of links
-    target = codecs.open(path, 'w', 'utf-8')
+    #target = codecs.open(path, 'w', 'utf-8')
 
     jsonV={}
     nodes=[]
@@ -56,7 +56,7 @@ def writeDataForD3(path,mainWord,listOfTuples, maxNodes, numGroups): #TODO: add 
     cadena=cadena.replace("\\",'')
     cadena=cadena.replace("u'",'"')
     cadena=cadena.replace("'",'"')
-    target.write(cadena)
+    #target.write(cadena)
 
-    target.close()
+    #target.close()
     return cadena;
