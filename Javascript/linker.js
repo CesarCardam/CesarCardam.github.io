@@ -47,7 +47,7 @@ var parentHeight=500;
 
 console.log(parentWidth+" "+parentHeight);
 
-var svg = d3.select("svg");
+var svgl = d3.select("#linkerSvg");
       //width = +svg.attr("width"),
       //height = +svg.attr("height");
 
@@ -60,6 +60,8 @@ var simulation = d3.forceSimulation()
     .force("center", d3.forceCenter(parentWidth/2, parentHeight/2));
 
 function updateSimulation(){
+
+  console.log("updateLinker");
   var parentWidth=parseInt($(window).width());
   var parentHeight=500;
 
@@ -77,9 +79,9 @@ function updateSimulation(){
           graph=gr;
         }
 
-        svg.selectAll("g").remove();
+        svgl.selectAll("g").remove();
 
-        var link = svg.append("g")
+        var link = svgl.append("g")
             .attr("class", "links")
 
           .selectAll("line").remove()
@@ -87,7 +89,7 @@ function updateSimulation(){
           .enter().append("line")
             .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
 
-        var node = svg.append("g")
+        var node = svgl.append("g")
             .attr("class", "nodes")
 
           .selectAll("circle").remove()
@@ -174,6 +176,7 @@ function updateSimulation(){
           d.fx = null;
           d.fy = null;
         }
+        updateGraph();
 }
 
 var yearInit=1980;
@@ -217,7 +220,6 @@ function readyChart(){
         linkerData(frase,ngramas)
       }
     }
-
   });
 
   function linkerData(word, num){
@@ -227,7 +229,7 @@ function readyChart(){
               callbackFunc(xmlHttp.responseText);
       }
       xmlHttp.open("GET",
-      "http://35.162.123.30:8080/api/v1/update_linker/"+word+"/"+num,
+      "http://localhost:8080/api/v1/update_linker/"+word+"/"+num,
       true); // true for asynchronous
       xmlHttp.send(null);
   }
@@ -240,7 +242,7 @@ function readyChart(){
               callbackFunc(xmlHttp.responseText);
       }
       xmlHttp.open("GET",
-      "http://35.162.123.30:8080/api/v1/update_linker_music/"+word+"/"+num+"/"+yearInit+"/"+yearEnd,
+      "http://localhost:8080/api/v1/update_linker_music/"+word+"/"+num+"/"+yearInit+"/"+yearEnd,
       true); // true for asynchronous
       xmlHttp.send(null);
   }
@@ -257,7 +259,7 @@ function readyChart(){
   d3.json("Resources/data.json", function(error, graph) {
     if (error) throw error;
 
-    var link = svg.append("g")
+    var link = svgl.append("g")
         .attr("class", "links")
 
       .selectAll("line")
@@ -265,7 +267,7 @@ function readyChart(){
       .enter().append("line")
         .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
 
-    var node = svg.append("g")
+    var node = svgl.append("g")
         .attr("class", "nodes")
 
       .selectAll("circle")
@@ -361,5 +363,5 @@ $(document).ready(function(){
 
 $( window ).resize(function() {
   clearTimeout(this.id);
-    this.id = setTimeout(updateSimulation, 500);
+  this.id = setTimeout(updateSimulation, 500);
 });

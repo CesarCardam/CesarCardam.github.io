@@ -54,3 +54,17 @@
 #doubleSlider {
   margin-top: 10px;
 }
+
+/*Graph*/
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis--x path {
+  display: none;
+}

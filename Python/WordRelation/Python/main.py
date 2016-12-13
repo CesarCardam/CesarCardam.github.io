@@ -53,12 +53,12 @@ def linkerC(s,n,yearInit,yearEnd):
 
     return response
 
-def freqData():
+def freqData(s):
     yearInit=1960
-    yearEnd=2015
+    yearEnd=2016
     n=1
     numResults=50
-    jsonV={}
+    response=[]
     #Busca en corpus
     for year in range(yearInit,yearEnd):
         descriptionsList=websearcher.getResultsDescriptionListCorpus("../Outputs",s,year,year)
@@ -69,13 +69,19 @@ def freqData():
         #Obtiene la probabilidad condicional de la palabra dada con cada palabra del texto en una lista de tuplas
         #Se pasa el valor de lambda de 1 para el smoothing de Laplace, también se pasa el número de resultados
         #para calcular el número de N-1 gramas
-        freqDic,words=freqcounter.getWordsFreqInNgrams(nGramsList)
+        freq=freqcounter.getFreqForWord(s,nGramsList)
+        dicc={}
+        dicc["letter"]=year
+        dicc["frequency"]=freq
+        response.append(dicc)
 
+    cadena=str(response)
+    cadena=cadena.replace("\\",'')
+    cadena=cadena.replace("u'",'"')
+    cadena=cadena.replace("'",'"')
     #Guarda en un archivo de texto las listas de tuplas
     #writer.writeListOfTuples("../Outputs/"+s+str(n)+"gramas.txt",wordsRelationOrdered)
-    response = writer.writeDataForD3("../../../Resources/data.tsv",s,wordsRelationOrdered,100,10)
-
-    return response
+    return cadena
 
 def runmain():
     print("Ingresa una palabra:\n")

@@ -1,6 +1,17 @@
 #!/usr/local/bin/python
 # -*- coding: utf-8 -*-
 from __future__ import division
+
+def getFreqForWord(word,nGrams):
+    freq=0
+    totalWords=0
+    for nGram in nGrams:
+        if word == nGram[0]:
+            freq+=1
+        totalWords+=1
+    return freq/totalWords
+
+
 def getWordsFreqInNgrams(nGrams):
     wordsListGeneral=[]
     wordsFreq={}

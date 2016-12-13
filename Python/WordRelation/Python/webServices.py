@@ -6,7 +6,7 @@ import main
 urls = (
     '/api/v1/update_linker/(.*)/(.*)', 'update_linker',
     '/api/v1/update_linker_music/(.*)/(.*)/(.*)/(.*)', 'update_linker_music',
-    '/api/v1/update_corpus', 'update_corpus',
+    '/api/v1/update_freqs/(.*)', 'update_freqs',
     '/api/v1/update_composer', 'update_composer'
 )
 web.config.debug = False
@@ -26,6 +26,13 @@ class update_linker_music:
         web.header('Access-Control-Allow-Origin',      '*')
         web.header('Access-Control-Allow-Credentials', 'true')
         return main.linkerC(word,n,yi,ye)
+
+class update_freqs:
+    def GET(self,word):
+        web.header('Content-Type', 'application/json')
+        web.header('Access-Control-Allow-Origin',      '*')
+        web.header('Access-Control-Allow-Credentials', 'true')
+        return main.freqData(word)
 
 
 if __name__ == "__main__":
