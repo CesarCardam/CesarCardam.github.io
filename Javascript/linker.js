@@ -260,9 +260,8 @@ function readyChart(){
 
   function callbackFunc(response) {
     //if (xhr.readyState == 4 && xhr.status == 200) {
+      console.log(response);
       gr=JSON.parse(response);
-      console.log("done");
-      console.log("gr.links");
       updateSimulation();
     //}
   }
