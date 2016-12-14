@@ -59,8 +59,17 @@ var simulation = d3.forceSimulation()
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(parentWidth/2, parentHeight/2));
 
-function updateSimulation(){
+$("#linkerTitle").text("Relación de palabras para "+" \""+"love"+"\"");
+$("#linkerLoader").hide();
 
+function updateSimulation(){
+  var w=$("#frase").val();
+  if(w==""){
+    w="love";
+  }
+  var text="Relación de palabras para "+" \""+w+"\"";
+  $("#linkerTitle").text(text);
+  $("#linkerLoader").hide();
   console.log("updateLinker");
   var parentWidth=parseInt($(window).width());
   var parentHeight=500;
@@ -214,6 +223,8 @@ function readyChart(){
 
     if(frase!="" && ngramas!="" && ngramas>1 && ngramas<100){
       console.log(frase+" - "+ngramas+" - "+corpus+" - "+yearInit+" - "+yearEnd);
+      $("#linkerTitle").text("Calculando datos");
+      $("#linkerLoader").show();
       if(corpus){
         linkerDataCorpus(frase,ngramas,yearInit,yearEnd)
       }else {

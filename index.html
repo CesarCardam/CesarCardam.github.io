@@ -60,24 +60,24 @@
       <div class="row">
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center pink-text"><i class="material-icons">flash_on</i></h2>
+            <h2 class="center pink-text"><i class="material-icons">assessment</i></h2>
             <h5 class="center">Corpus musical</h5>
-            <p class="light">Las mejores canciones publicadas en el Billboard desde los 60's hasta la fecha actual. Mira como han evolucionado las letras de canciones y que temas se mantienen hasta la fecha.</p>
+            <p class="light">Las mejores canciones publicadas en el Billboard desde los 60's hasta la fecha actual. Mira como han evolucionado las letras de canciones de acuerdo a las palabras más usadas.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center purple-text"><i class="material-icons">group</i></h2>
+            <h2 class="center purple-text"><i class="material-icons">group_work</i></h2>
             <h5 class="center">Linker semántico</h5>
 
-            <p class="light">Una búsqueda semántica de cualquier palabra o frase. Haz crecer la red tanto como quieras y descubre increibles coincidencias en sus conexiones.</p>
+            <p class="light">"Las elementos alrededor de una palabra le dan significado", a partir de este principio haz una búsqueda semántica de una palabra o frase. Haz crecer la red tanto como quieras y descubre increibles coincidencias en sus conexiones.</p>
           </div>
         </div>
 
         <div class="col s12 m4">
           <div class="icon-block">
-            <h2 class="center red-text"><i class="material-icons">settings</i></h2>
+            <h2 class="center red-text"><i class="material-icons">receipt</i></h2>
             <h5 class="center">Compositor automático</h5>
 
             <p class="light">Generador automático de letras de canciones. Elige las palabras clave y ¡voilà! poesía instantánea, ya sólo te faltará la música.</p>
@@ -98,6 +98,21 @@
     </div>
     <div class="parallax"><img src="Images/background2.jpg" alt="Unsplashed background img 2"><div class="overColor overPink"></div></img></div>
   </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Instrucciones</h4>
+          <p class="left-align light">Escribe una palabra (de preferencia en inglés) y da click en "ver frecuencias" y podrás ver el porcentaje de uso de esa palabra en las mejores canciones según el Billboard desde 1960 hasta 2015. Puedes acomodar la gráfica cómo línea de tiempo o de las más a las menos usadas.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
   <div class="row">
       <form id="linkerForm" class="col s12">
         <div class="row">
@@ -116,8 +131,20 @@
       </form>
     </div>
     <div class="row">
-      <div class="switch col s12 center-align">
-        <p id="graphTitle" class="light">Gráfica de frecuencias por año para palabra "live"</p>
+      <div class="row">
+        <p id="graphTitle" class="center-align light"> Cargando </p>
+        <div id="graphLoader" class="progress col s12 center">
+          <div class="indeterminate"></div>
+        </div>
+      </div>
+    <div class="switch col m6 s12">
+      <div class="row">
+        <label>
+          Línea de tiempo
+          <input id="sortInput" type="checkbox">
+          <span class="lever"></span>
+          De mayor a menor
+        </label>
       </div>
     </div>
   <div class="graph" width="100%" height="800px"><svg id="graphSvg" width="100%" height="500px"></svg>
@@ -129,7 +156,7 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>¿Cómo se hizo?</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <p class="left-align light">Se creó un corpus con un scraper para obtener las letras de todas las canciones del Billboard desde 1960 hasta 2015. Una vez recopilado el corpus, se limpió eliminando signos de puntuación y pasando todo a minúsculas. Una vez contadas las apariciones de la palabra dada y el número total de palabras por año, el eje vertical muestra la probabilidad condicional de aparición de la palabra dada por año.</p>
         </div>
       </div>
 
@@ -144,6 +171,20 @@
       </div>
     </div>
     <div class="parallax"><img src="Images/background2.jpg" alt="Unsplashed background img 2"><div class="overColor overPurple"></div></img></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Instrucciones</h4>
+          <p class="left-align light">Escribe una palabra (de preferencia en inglés para el corpus musical), especifica el tamaño de los n-gramas, elige un corpus (web o musical), y da click en "crear grafo".Pasa el mouse encima de los nodos del grafo para ver las palabras. Al centro del grafo verás la palabra dada y las palabras más relacionadas a ella alrededor, siendo las más cercanas las más relacionadas. Próximamente al hacer click en un nodo se podrá agrandar el grafo con las conexiones de la palabra de ese nodo.</p>
+        </div>
+      </div>
+
+    </div>
   </div>
 
   <div class="row">
@@ -179,6 +220,12 @@
         </div>
       </form>
     </div>
+    <div class="row">
+      <p id="linkerTitle" class="center-align light"> Cargando </p>
+      <div id="linkerLoader" class="progress col s12 center">
+        <div class="indeterminate"></div>
+      </div>
+    </div>
 
 <div id="chart" class="graph" width="100%" height="500px"><svg id="linkerSvg" width="100%" height="500px"></svg>
   <div class="container">
@@ -188,7 +235,7 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>¿Cómo se hizo?</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <p class="left-align light">A partir del corpus seleccionado, limpio y eliminando palabras con baja información (preposiciones, artículos, etc); se crean n-gramas del tamaño dado, y se hace el conteo de las palabras que se repiten más junto a la palabra dada.</p>
         </div>
       </div>
 
@@ -212,8 +259,22 @@
       <div class="row">
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>¿Cómo se hizo?</h4>
-          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+          <h4>Instrucciones</h4>
+          <p class="left-align light">Próximamente. Proporciona tres palabras (en inglés), especifica el número de estrofas, después el número de renglones de cada estrofa y da click en "generar canción". Podrás ver una canción creada automáticamente que usa la métrica de las canciones en el corpus musical basando su contendio en las palabras proporcionadas.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>¿Cómo se está haciendo?</h4>
+          <p class="left-align light">A partir del corpus musical limpio y con etiquetas (Freeling) se genera un modelo oculto de Markov. Para generar cada renglón de la canción primero se obtendrá un metrica de tamaño n (una metrica será una sucesión de tamaño m[tamaño del renglón] de etiquetas POS). La métrica se conseguirá a partir de una palabra clave (que al principio serán las dadas) buscando la palabra en el corpus y obteniendo las etiquetas de las palabras que tiene alrededor, una vez obtenida la métrica se elegirá una palabra aleatoria de las que están en el corpus para las etiquetas significativas (sustantivo, adjetivo y adverbio) dando una probabilida de aparición más alta a palabras relacionadas con las dadas, la palabra de las demás etiquetas (artículo, preposición, etc) que son dependientes de las etiquetas significativas serán asignadas después con ayuda de las cadenas ocultas de Markov. La palabra clave para el siguiente renglón podrá ser una palabra de las dadas o una de las palabras significativas del renglón actual, para la métrica se tomará en cuenta la última etiqueta del renglón anterior mientras sea la misma estrofa. Se busca que la canción esté escrita correctamente y no que tenga necesariamente un sentido. El sentido se buscará después utilizando una base de datos de relaciones semánticas. </p>
         </div>
       </div>
 
@@ -224,34 +285,24 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. Any amount would help support and continue development on this project and is greatly appreciated.</p>
-
+          <h5 class="white-text">Agradecimientos</h5>
+          <p class="grey-text text-lighten-4">A mis profesores de tecnologías del lenguaje Víctor, Octavio y Julián por motivarme y darme las herramientas con sus enseñanzas, al equipo web de UNAM mobile Vincent y Santi por el maravilloso curso de front-end que impartieron, a Alejandro García por enseñarme a siempre dar un poco más y a Carlos Vazquez por ayudarme a aclarar mis ideas y esperarme hasta tarde mientras terminaba esta página.</p>
 
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Settings</h5>
+          <h5 class="white-text">Contacto</h5>
           <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
-        </div>
-        <div class="col l3 s12">
-          <h5 class="white-text">Connect</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
+            <li><a class="white-text" href="#!">cesar@nerds.ai</a></li>
+            <li><a class="white-text" href="https://www.facebook.com/cesaralejandro.cardenasamaro">Facebook</a></li>
+            <li><a class="white-text" href="https://twitter.com/cesarcardam">Twitter</a></li>
+            <li><a class="white-text" href="https://www.linkedin.com/in/césar-alejandro-cárdenas-amaro-15a6647b">Linkedin</a></li>
           </ul>
         </div>
       </div>
     </div>
     <div class="footer-copyright">
       <div class="container">
-      Made by <a class="orange-text text-lighten-3" href="http://materializecss.com">César Alejandro Cárdenas Amaro</a>
+      Made by <a class="orange-text text-lighten-3" href="https://nerds.ai">César Alejandro Cárdenas Amaro</a>
       </div>
     </div>
   </footer>
