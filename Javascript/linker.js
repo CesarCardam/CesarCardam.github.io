@@ -59,13 +59,13 @@ var simulation = d3.forceSimulation()
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(parentWidth/2, parentHeight/2));
 
-$("#linkerTitle").text("Relación de palabras para "+" \""+"love"+"\"");
+$("#linkerTitle").text("Relación de palabras para "+" \""+"ciencia"+"\"");
 $("#linkerLoader").hide();
 
 function updateSimulation(){
   var w=$("#frase").val();
   if(w==""){
-    w="love";
+    w="ciencia";
   }
   var text="Relación de palabras para "+" \""+w+"\"";
   $("#linkerTitle").text(text);
