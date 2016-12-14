@@ -240,7 +240,7 @@ function readyChart(){
               callbackFunc(xmlHttp.responseText);
       }
       xmlHttp.open("GET",
-      "http://localhost:8080/api/v1/update_linker/"+word+"/"+num,
+      "http://localhost:1338/api/v1/update_linker/"+word+"/"+num,
       true); // true for asynchronous
       xmlHttp.send(null);
   }
@@ -253,7 +253,7 @@ function readyChart(){
               callbackFunc(xmlHttp.responseText);
       }
       xmlHttp.open("GET",
-      "http://localhost:8080/api/v1/update_linker_music/"+word+"/"+num+"/"+yearInit+"/"+yearEnd,
+      "http://localhost:1338/api/v1/update_linker_music/"+word+"/"+num+"/"+yearInit+"/"+yearEnd,
       true); // true for asynchronous
       xmlHttp.send(null);
   }
