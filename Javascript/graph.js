@@ -165,7 +165,7 @@ function graphDataWord(word){
             callbackFuncG(xmlHttp.responseText);
     }
     xmlHttp.open("GET",
-    "http://35.162.123.30:1338/api/v1/update_freqs/"+word,
+    "http://35.164.7.166:1338/api/v1/update_freqs/"+word,
     true); // true for asynchronous
     xmlHttp.send(null);
 }
